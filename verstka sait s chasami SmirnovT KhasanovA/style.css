@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper{
+    max-width: 1026px;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-menu{
+    margin: 10px 0;
+    height: 40px;
+    font-size: 18px;
+    line-height: 41px;
+}
+
+.main-menu img{
+    float: left;
+    margin-left: 40px;
+}
+
+.main-menu nav{
+    float: right;
+}
+
+.main-menu ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.main-menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.main-menu p{
+    float: right;
+    margin-left: 20px;
+    font-weight: 700;
+}
+
+.banner{
+    background-image: url(img/banner.png);
+    height: 275px;
+}
+/* brands */
+h3{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 30px;
+}
+
+.brands .content, .clock .content{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.brand .content div{
+    border: 1px solid #7D2222;
+    width: 160px;
+    height: 160px;
+    background-image: url(img/image 7.png);
+}
+
+/* clock */
+.clock .content div{
+    border: 1px solid #000;
+    border-radius: 15px;
+    width: 240px;
+    height: 330px;
+    text-align: center;
+    font-size: 15pt;
+}
+
+.clock .content div img{
+    margin-top:  10px;
+}
